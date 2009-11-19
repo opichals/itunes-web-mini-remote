@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'itunes-web-remote'
+
+# make sure sinatra is started
+set :run, true
+set :port, 3889
+set :environment, :production
