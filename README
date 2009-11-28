@@ -1,3 +1,18 @@
+ITunes Web Mini-Remote
+======================
+
+Minimal ITunes Web Remote control based on rb-appscript (OS X only) and sinatra. Just a quick port
+of http://rubyforge.org/projects/itunes-frontend to rb-appscript.
+
+It is a GEM!
+============
+
+You can build the .gem file using the 'gem build itunes-web-remote.gemspec' command. The package
+depends on the 'rb-appscript' and 'sinatra' gems.
+
+LICENSE
+=======
+
 Copyright (c) 2009, Standa Opichal <opichals@gmail.com> (rb-appscript port)
 Copyright (c) 2008, Ole Friis Østergaard
 All rights reserved.
