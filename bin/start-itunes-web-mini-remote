@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'itunes-web-remote'
+require 'itunes-web-mini-remote'
 
 # make sure sinatra is started
 set :run, true

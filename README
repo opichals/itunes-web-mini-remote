@@ -7,8 +7,14 @@ of http://rubyforge.org/projects/itunes-frontend to rb-appscript.
 It is a GEM!
 ============
 
-You can build the .gem file using the 'gem build itunes-web-remote.gemspec' command. The package
-depends on the 'rb-appscript' and 'sinatra' gems.
+It depends on the 'rb-appscript' and 'sinatra' gems so make sure you got those before you start.
+
+Testing directly from the repository:
+  cd bin; RUBYLIB=../lib ./start-itunes-web-mini-remote
+
+Building the .gem file using the following command:
+  gem build itunes-web-mini-remote.gemspec' 
+
 
 LICENSE
 =======
