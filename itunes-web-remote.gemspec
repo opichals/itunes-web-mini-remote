@@ -21,6 +21,3 @@ SPEC = Gem::Specification.new do |s|
     s.add_dependency("rb-appscript")
     s.add_dependency("sinatra")
 end
-
-
-
